@@ -1,0 +1,67 @@
+:root {
+    --witdh--general:550px;
+    --height-general:180px;
+}
+
+body {
+    background-image:url("https://eleco.unam.mx/wp-content/uploads/2011/03/w_2010_03_PabloRasgado_IMG_5845-1024x682.jpg") ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.frame {
+    display: flexbox;
+    background-color:white;
+    width:650px;
+    max-width: 600px;
+    height: 700px;
+    margin:20px auto;
+    overflow: hidden;
+    box-shadow: 0 0 130px 5px rgba(0,0,0, 0.8);
+}
+.frame p {
+    text-align: left;
+    margin: 10px auto 10px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 20px;
+}
+.canvas {
+    width:580px;
+    height:600px;
+    margin:10px auto;
+    background-color:rgb(46, 46, 107);
+    overflow: hidden;
+    filter:blur(2px);
+}
+
+.one {
+    width:var(--witdh--general);
+    height:var(--height-general);
+    background-color:rgb(94, 36, 36);
+    margin:20px auto;
+    border-radius:20px;
+    box-shadow: 0 0 3px 3px rgb(94,36,36);
+    filter:blur(1px);
+}
+
+.two {
+    width:var(--witdh--general);
+    height:var(--height-general);
+    background-color:rgb(0,150,255);
+    margin:0px auto 15px;
+    border-radius: 8px 10px;
+    box-shadow: 0 0 3px 3px rgb(0,150,255);
+    filter:blur(1px);
+}
+
+.three {
+    width:var(--witdh--general);
+    height:170px;
+    background-color:rgba(240,20,24,0.5);
+    margin:auto;
+    box-shadow: 0 0 3px 3px rgba(240,20,24,.5);
+    border-radius: 10px 20px 50px 8px;
+    filter:blur(1px);
+}
+
+/*Filter, transform*/
